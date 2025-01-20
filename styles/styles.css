@@ -10,6 +10,7 @@ nav a {
 h1 {
     color: darkblue;
 }
+/*here is where the look of my profile picture is set in css styles*/
 main img {
     width: 150px;
     height: auto;
