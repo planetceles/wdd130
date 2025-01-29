@@ -33,3 +33,18 @@ footer {
     color: #495057;
     border-top: 1px solid #e9ecef;
 }
+body {
+    font-family: "Roboto Serif", serif;
+    font-weight: 400;
+   /* font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #495057;
+    margin: 0;
+    padding: 0;*/
+}
+h2 {
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
