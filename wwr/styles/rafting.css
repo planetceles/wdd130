@@ -8,8 +8,8 @@
 h1 {
     color: var(--primary-color);
     /*font-size: 2.5rem;*/
-    font-weight: 0;
-    text-align: none;
+    /*font-weight: 0;*/
+    /*text-align: none;*/
     margin: 0;
     padding: 0;
     font-family: "Roboto Serif", serif;
@@ -17,13 +17,13 @@ h1 {
 h1 a {
     color: var(--primary-color);
     text-decoration: none;
-    font-family: 
+    font-family: "Roboto Serif", serif;
 }
 h2 {
     color: var(--secondary-color);
     font-size: 1.5rem;
-    font-weight: 0;
-    text-align: none;
+    /*font-weight: 0;*/
+    /*text-align: none;*/
     margin: 0;
     padding: 0;
     font-family: "Roboto Serif", serif;
@@ -31,17 +31,17 @@ h2 {
 h3 {
     color: var(--accent1-color);
     font-size: 1.5rem;
-    font-weight: 0;
-    text-align: none;
+    /*font-weight: 0;*/
+    /*text-align: none;*/
     margin: 0;
     padding: 0;
     font-family: "Roboto Serif", serif;
-    font-weight: 0;
+    /*font-weight: 0;*/
 }
 footer {
     a {
-        text-decoration: none
-    };
+        text-decoration: none;
+    }
 }
 body {
     max-width: 800px;
@@ -81,7 +81,7 @@ body {
     bottom: 1%;
     left: 10%;
     width: 80%;
-    background: rgb(0, green, blue);
+    /*background: rgb(0, green, blue);*/
     color: white;
     padding: 15px;
     border-radius: 5px;
