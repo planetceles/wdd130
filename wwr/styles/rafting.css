@@ -38,10 +38,13 @@ h3 {
     font-family: "Roboto Serif", serif;
     /*font-weight: 0;*/
 }
-footer {
+/*footer {
     a {
         text-decoration: none;
     }
+}*/
+footer a {
+    text-decoration: none;
 }
 body {
     max-width: 800px;
