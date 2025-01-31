@@ -1,0 +1,118 @@
+:root {
+    --primary-color: #1C3C4A;
+    --secondary-color: #125F89;
+    --accent1-color : #3A6A83;
+    --accent2-color : #76CDCA;
+    /*--primary-font: 'Roboto', sans-serif;*/
+}
+h1 {
+    color: var(--primary-color);
+    /*font-size: 2.5rem;*/
+    font-weight: 0;
+    text-align: none;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Serif", serif;
+}
+h1 a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-family: 
+}
+h2 {
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+    font-weight: 0;
+    text-align: none;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Serif", serif;
+}
+h3 {
+    color: var(--accent1-color);
+    font-size: 1.5rem;
+    font-weight: 0;
+    text-align: none;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Serif", serif;
+    font-weight: 0;
+}
+footer {
+    a {
+        text-decoration: none
+    };
+}
+body {
+    max-width: 800px;
+   /* margin: 0 auto;*/
+}
+/*div {
+        position: relative;
+        h1 {
+            position: absolute;
+        }
+        article {
+            position: absolute;
+        }
+}*/
+.hero {
+    position: relative;
+    width: 100%;
+    /*height: 600px;*/
+    overflow: hidden;
+}
+.hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.hero-title {
+    position: absolute;
+    top: 1%;
+    /*transform: translate(-50%);*/
+    color: white;
+    font-size: 2.5rem;
+
+    
+}
+.hero-article {
+    position: absolute;
+    bottom: 1%;
+    left: 10%;
+    width: 80%;
+    background: rgb(0, green, blue);
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    
+}
+ .article-image {
+    float: right;
+    width: 200px;
+    height: auto;
+    margin-left: 15px;
+    /*border-radius: 5px;*/
+}
+.article-text {
+    color: rgb(255, 255, 255);
+    font-family: "Roboto Serif", serif;
+}
+/*.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.hero-title {
+    position: absolute;
+    top: 50%;
+    left: 34%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: none;
+    font-weight: 0;
+    text-align: none;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Serif", serif;
+}*/
