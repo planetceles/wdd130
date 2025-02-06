@@ -222,7 +222,6 @@ header {
     height: auto;
 }
 .adventure figcaption {
-    margin-top: none;
     font-size: 17px;
     color: rgb(7, 48, 83);
     text-align: center;
