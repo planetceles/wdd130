@@ -1,0 +1,127 @@
+:root {
+    --font-family: "Roboto Serif", serif;
+    --font-optical-sizing: auto;
+    --font-weight: <weight>;
+    --font-style: normal;
+    --font-variation-settings: normal;
+}
+* {
+    margin: 1px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+body {
+    font-family: var(--font-family);
+    font-optical-sizing: var(--font-optical-sizing);
+    font-weight: var(--font-weight);
+    font-style: var(--font-style);
+    font-variation-settings: var(--font-variation-settings);
+    background-color: #f8f8f8;
+    text-align: center;
+    
+}
+h2 {
+    color: navy;
+    text-align: center;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+legend {
+    text-align: left;
+    color: navy;
+}
+label {
+    margin-top: 10px;
+}
+.label1 {
+    text-align: right;
+}
+.label1 input {
+    width: 350px;
+}
+.fieldtwo select {
+        width: 150px;
+        
+}
+.fieldtwo textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+}
+.lab2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.lab3 {
+    text-align: right;
+}
+.button1 {
+    background-color: navy;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button1:hover {
+    color: chocolate;
+}
+.formhead {
+    background-color: rgb(219, 219, 174);
+    width: 600px;
+    text-align: center;
+    margin-left: 27%;
+
+}
+/*header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+h2 {
+    font-size: 1.5em;
+    margin: 1rem;
+    color: navy;
+    text-align: center;
+}
+form {
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #dbdbb0;
+    
+}
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    padding: 1.5rem;
+    border: 1px solid #7a7575;
+    margin-bottom: 1.5rem;
+}
+fieldset label {
+    font-weight: bold;
+}
+legend {
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3em;
+}
+label, input,button, select,  textarea {
+    font-family: "Roboto Serif", serif;
+}
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+input, select, textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+}*/
