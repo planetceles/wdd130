@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 130 | HTML Form - User Poll</title>
+    <link rel="stylesheet" href="styles/poll-formo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght,GRAD@0,8..144,100..900,100;1,8..144,100..900,100&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header></header>
+    <main>
+        <div class="form">
+        <h1>Contact Us</h1>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" required><br>
+
+                <label for="useremail">Email</label>
+                <input type="text" id="useremail" name="useremail" required><br>
+                
+            </fieldset>
+            <fieldset>
+                <legend>Your Message</legend>
+                <label for="message">Purpose of the massage:</label>
+                <div class="radio">
+                    <input type="radio" id="general" name="Purpose" value="General Inquiry" required>
+                    <label for="general">General Inquiry</label><br>
+
+                    <input type="radio" id="reservation" name="Purpose" value="Reservation Question">
+                    <label for="reservation">Reservation Question</label><br>
+
+                    <input type="radio" id="suggession" name="Purpose" value="Website Suggession">
+                    <label for="suggession">Website Suggession</label><br>
+
+                </div>
+                    <label for="Message">Message</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                <div class="checkbox">
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                    <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                </div>
+            </fieldset>
+
+            <button type="submit">Submit</button>
+
+        </form>
+        </div>
+    </main>
+    <footer>©2025 | HTML Form - User Poll Activity | Celestine Mande </footer>
+</body>
+</html>
