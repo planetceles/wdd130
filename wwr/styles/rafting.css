@@ -31,6 +31,8 @@ h1 {
     margin: var(--margin);
     padding: var(--padding);
     font-family: var(--font-family);
+    text-align: var(--text-align);
+    margin-bottom: 20px;
 }
 h1 a {
     color: var(--primary-color);
@@ -234,10 +236,6 @@ figcaption {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 400px;
-}
-h1 {
-    text-align: var(--text-align);
-    margin-bottom: 20px;
 }
 label {
     margin-top: 10px;
