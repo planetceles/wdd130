@@ -10,7 +10,6 @@
     --border: 1px solid #ccc;
     --margin: 0;
     --padding: 0;
-    --textdecoration: none;
     --font-size: 1.5rem;
     --width: 100%;
     --height: auto;
@@ -25,37 +24,39 @@
     --list-style: none;
     --blockdisplay: block;
     --allpadding: 20px;
+    --tdecor: none;
 }
-h1 {
-    color: var(--primary-color);
+h1, h2, h3 {
     margin: var(--margin);
     padding: var(--padding);
     font-family: var(--font-family);
+}
+h1, h2 {
     text-align: var(--text-align);
+}
+h1 {
+    color: var(--primary-color);
+    
+    
+    
+    
     margin-bottom: 20px;
 }
 h1 a {
     color: var(--primary-color);
-    text-decoration: var(--textdecoration);
+    text-decoration: var(--tdecor);
     font-family: var(--font-family);
 }
 h2 {
     color: var(--secondary-color);
     font-size: var(--font-size);
-    text-align: var(--text-align);
-    margin: var(--margin);
-    padding: var(--padding);
-    font-family: var(--font-family);
 }
 h3 {
     color: var(--accent1-color);
     font-size: var(--font-size);
-    margin: var(--margin);
-    padding: var(--padding);
-    font-family: var(--font-family);
 }
 footer a {
-    text-decoration: var(--textdecoration);
+    text-decoration: var(--tdecor);
 }
 .hero {
     position: relative;
@@ -123,7 +124,7 @@ header {
     margin: 0 10px;
 }
 .nav-list a {
-    text-decoration: var(--textdecoration);
+    text-decoration: var(--tdecor);
     font-size: 20px;
     padding: 10px 15px;
     display: var(--blockdisplay);
@@ -162,7 +163,7 @@ header {
 .all-section {
     background-color: #818f97;
 }
-.adventure fugure {
+.adventure figure {
     flex: 1;
     text-align: var(--text-align);
 }
@@ -200,7 +201,7 @@ footer {
     margin: var(--margin);
 }
 .social-list a {
-    text-decoration: var(--textdecoration);
+    text-decoration: var(--tdecor);
     color: var(--primary-color);
     display: var(--blockdisplay);
 }
