@@ -16,6 +16,15 @@
     --height: auto;
     --align-items: center;
     --allwidth: 200px;
+    --position: absolute;
+    --border-radius: 5px;
+    --display: grid;
+    --justify-self: end;
+    --flex: flex;
+    --justify-content: center;
+    --list-style: none;
+    --blockdisplay: block;
+    --allpadding: 20px;
 }
 h1 {
     color: var(--primary-color);
@@ -57,7 +66,7 @@ footer a {
     object-fit: cover;
 }
 .hero-title {
-    position: absolute;
+    position: var(--position);
     top: 1%;
     color: var(--color);
     font-size: 2.5rem;
@@ -65,13 +74,13 @@ footer a {
     
 }
 .hero-article {
-    position: absolute;
+    position: var(--position);
     bottom: 1%;
     left: 10%;
     width: 80%;
     color: var(--color);
     padding: 15px;
-    border-radius: 5px;
+    border-radius: var(--border-radius);
     
 }
  .article-image {
@@ -79,14 +88,14 @@ footer a {
     width: var(--allwidth);
     height: var(--height);
     margin-left: 15px;
-    border-radius: 5px;
+    border-radius: var(--border-radius);
 }
 .article-text {
     color: rgb(255, 255, 255);
     font-family: var(--font-family);
 }
 header {
-    display: grid;
+    display: var(--display);
     grid-template-columns: auto 1fr;
     align-items: var(--text-align);
     background: var(--accent1-color);
@@ -94,7 +103,7 @@ header {
     border-bottom: 1px solid var(--primary-color);
 }
 .horizontal {
-    justify-self: end;
+    justify-self: var(--justify-self);
 }
 .logo {
     width: 100px;
@@ -102,9 +111,9 @@ header {
     margin: 0 0.25rem 0 2rem;
 }
 .nav-list {
-    display: flex;
-    justify-content: center;
-    list-style: none;
+    display: var(--flex);
+    justify-content: var(--justify-content);
+    list-style: var(--list-style);
     padding: var(--padding);
     margin: var(--margin);
 }
@@ -115,7 +124,7 @@ header {
     text-decoration: var(--textdecoration);
     font-size: 20px;
     padding: 10px 15px;
-    display: block;
+    display: var(--blockdisplay);
     color: var(--color);
 }
 .nav-list a:hover {
@@ -125,9 +134,9 @@ header {
 
 }
 .history {
-    display: flex;
+    display: var(--flex);
     flex-direction: column;
-    justify-content: center;
+    justify-content: var(--justify-content);
     align-items: var(--align-items);
     background-color: var(--accent2-color);
 }
@@ -138,13 +147,13 @@ header {
     width: var(--allwidth);
 }
 .history-list {
-    display: grid;
+    display: var(--display);
     grid-template-columns: 1fr 1fr 1fr;
-    list-style: none;
+    list-style: var(--list-style);
     padding: 10px;
 }
 .adventure {
-    display: flex;
+    display: var(--flex);
     justify-content: space-between;
     
 }
@@ -165,33 +174,33 @@ header {
     text-align: var(--text-align);
 }
 footer {
-    display: grid;
+    display: var(--display);
     grid-template-columns: 1fr auto;
     align-items: var(--align-items);
-    padding: 20px;
+    padding: var(--allpadding);
     background: var(--accent1-color);
     color: var(--color);
     border-top: 1px solid var(--primary-color);
 }
 .para {
-    display: flex;
-    justify-content: center;
+    display: var(--flex);
+    justify-content: var(--justify-content);
     margin: 10px;
 }
 .social {
-    justify-self: end;
+    justify-self: var(--justify-self);
 }
 .social-list {
-    display: flex;
-    justify-content: center;
-    list-style: none;
+    display: var(--flex);
+    justify-content: var(--justify-content);
+    list-style: var(--list-style);
     padding: var(--padding);
     margin: var(--margin);
 }
 .social-list a {
     text-decoration: var(--textdecoration);
     color: var(--primary-color);
-    display: block;
+    display: var(--blockdisplay);
 }
 .social img {
     width: 30px;
@@ -212,7 +221,7 @@ footer {
 
 
 .profilesall {
-    display: flex;
+    display: var(--flex);
     
     flex-wrap: wrap;
 }
@@ -221,7 +230,7 @@ figcaption {
 }
 .form {
     background-color: var(--color);
-    padding: 20px;
+    padding: var(--allpadding);
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 400px;
