@@ -46,36 +46,48 @@
         </div>
 
 
-        <div class="form">
+        <div class="formhead">
             <h1>Contact Us</h1>
-            <form action="#" method="post">
+            <form>
                 <fieldset>
                     <legend>Contact Information</legend>
-                    <label for="fullname">Full Name:</label>
-                    <input type="text" id="fullname" name="fullname" required><br>
-                
-                <div class="useremail">
-                    <label for="useremail">Email</label>
-                    <input type="text" id="useremail" name="useremail" required><br>
+                <div class="label1">
+                    <div class="label11">
+                        <label for="fullname">Full Name:</label>
+                        <input type="text" id="fullname" name="fullname" required><br>
+                    </div>
+                    
+                    <div class="label11">
+                        <label for="useremail">Email:</label>
+                        <input type="text" id="useremail" name="useremail" required><br>
+                    </div>
                 </div>
                     
                 </fieldset>
-                <fieldset>
+                <fieldset class="fieldtwo">
                     <legend>Your Message</legend>
-                    <label for="message">Purpose of the message:</label>
+                    <div class="messagepurpose">
+                        <label for="message">Purpose of the message:</label>
+                    </div>
                     <div class="radio">
                         <input type="radio" id="general" name="Purpose" value="General Inquiry" required>
                         <label for="general">General Inquiry</label><br>
-    
+                    
+                    <div class="reservation">
                         <input type="radio" id="reservation" name="Purpose" value="Reservation Question">
                         <label for="reservation">Reservation Question</label><br>
-    
+                    </div>
+
                         <input type="radio" id="suggestion" name="Purpose" value="Website Suggession">
                         <label for="suggestion">Website Suggestion</label><br>
     
                     </div>
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" rows="4" required></textarea>
+                    <div class="message">
+                    <div class="themessage">
+                        <label for="message">Message:</label><br>
+                    </div>
+                        <textarea id="message" name="message" rows="4" placeholder="Type your message here" required></textarea>
+                    </div>
     
                     <div class="checkbox">
                         <input type="checkbox" id="subscribe" name="subscribe">
@@ -83,7 +95,7 @@
                     </div>
                 </fieldset>
     
-                <button type="submit">Submit</button>
+                <button type="submit" class="button1">Submit</button>
     
             </form>
             </div>

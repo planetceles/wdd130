@@ -25,6 +25,7 @@
     --blockdisplay: block;
     --allpadding: 20px;
     --tdecor: none;
+    --background-color: rgb(219, 219, 174);
 }
 h1, h2, h3 {
     margin: var(--margin);
@@ -231,28 +232,87 @@ footer {
 figcaption {
     text-align: var(--text-align);
 }
-.form {
-    background-color: var(--color);
+.formhead {
+    /*background-color: var(--color);
     padding: var(--allpadding);
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 400px;
+    width: 400px;*/
+
+    background-color: var(--background-color);
+    width: 550px;
+    height: 550px;
+    text-align: center;
+    margin-left: 5%;
+    margin-bottom: 1%;
+    border-radius: 15px;
+}
+.formhead1 {
+    background-color: var(--background-color);
+    width: 550px;
+    height: auto;
+    text-align: left;
+    border-radius: 10px;
 }
 label {
     margin-top: 10px;
 }
-input, textarea {
-    border: var(--border);
+legend {
+    text-align: left;
+    color: navy;
 }
-button {
+.label1 {
+    text-align: right;
+}
+.label1 input {
+    width: 350px;
+    height: 20px;
+}
+.label11 {
+    padding: 5px;
+}
+.reservation {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.message {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+textarea {
+    border: var(--border);
+    
+}
+.fieldtwo textarea {
+    width: 482px;
+}
+.messagepurpose {
+    margin-bottom: 10px;
+}
+.themessage {
+    margin-bottom: 10px;
+}
+/*button {
     margin-top: 8px;
     background-color: #007bff;
     color: var(--color);
     border: none;
     cursor: pointer;
+}*/
+.button1 {
+    background-color: navy;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 15%;
+    
 }
-button:hover {
-    background-color: #0056b3;
+.button1:hover {
+    color: orange;
+}
+fieldset {
+    margin: 10px;
 }
 .useremail {
     margin-top: 9px;
@@ -267,4 +327,30 @@ button:hover {
 }
 .newfooter a:hover {
     text-decoration: var(--text-decoration);
+}
+body {
+    font-family: var(--font-family);
+    font-size: 1.2rem;
+    /*background: #eee;*/
+}
+
+
+
+
+
+
+.safety {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+}
+.safety-item {
+    background: #eee;
+}
+.safety p {
+    color: rebeccapurple;
+}
+.safety-item img {
+    width: 100%;
 }
