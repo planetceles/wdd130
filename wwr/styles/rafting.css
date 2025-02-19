@@ -26,6 +26,10 @@
     --allpadding: 20px;
     --tdecor: none;
     --background-color: rgb(219, 219, 174);
+    --back-color: navy;
+    --newborder: none;
+    --newcursor: pointer;
+    --newidth: 15%;
 }
 h1, h2, h3 {
     margin: var(--margin);
@@ -250,9 +254,11 @@ figcaption {
 .formhead1 {
     background-color: var(--background-color);
     width: 550px;
-    height: auto;
+    height: 138px;
     text-align: left;
     border-radius: 10px;
+    margin-left: 5px;
+
 }
 label {
     margin-top: 10px;
@@ -300,20 +306,47 @@ textarea {
     cursor: pointer;
 }*/
 .button1 {
-    background-color: navy;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    width: 15%;
+    background-color: var(--back-color);
+    color: var(--color);
+    border: var(--newborder);
+    border-radius: var(--border-radius);
+    cursor: var(--newcursor);
+    width: var(--newidth);
     
 }
 .button1:hover {
     color: orange;
 }
+.button2 {
+    margin-left: 27px;
+    background-color: var(--back-color);
+    color: var(--color);
+    border: var(--newborder);
+    border-radius: var(--border-radius);
+    cursor: var(--newcursor);
+    width: var(--newidth);
+}
+.button2:hover {
+    color: orange;
+}
 fieldset {
     margin: 10px;
 }
+
+
+.signlabel input {
+    width: 300px;
+}
+h4 {
+    margin: var(--margin);
+    padding: var(--padding);
+    font-family: var(--font-family);
+    color: var(--secondary-color);
+    font-size: var(--font-size);
+}
+
+
+
 .useremail {
     margin-top: 9px;
 }
@@ -331,7 +364,10 @@ fieldset {
 body {
     font-family: var(--font-family);
     font-size: 1.2rem;
-    /*background: #eee;*/
+    
+}
+main {
+    background: #c2bebe;
 }
 
 
