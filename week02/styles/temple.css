@@ -1,0 +1,30 @@
+header p {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+main img {
+    width: 400px;
+    height: auto;
+    box-shadow: 0 0 40px gray;
+    
+    /* margin: 10px; */
+}
+.section1 {
+    background-color: lightgray;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+.section2 {
+    background-color: lightgray;
+    padding: 20px;
+}
+h2 {
+    padding-bottom: 9px;
+    border-bottom: 1px solid black;
+}
+section p {
+    
+}
