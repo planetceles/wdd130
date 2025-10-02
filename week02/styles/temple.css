@@ -43,15 +43,15 @@ section {
     font-size: .9rem;
 }
 
-/* .section1 {
+.section1 {
     background-color: lightgray;
     padding: 20px;
     margin-bottom: 25px;
-} */
-/* .section2 {
+}
+.section2 {
     background-color: lightgray;
     padding: 20px;
-} */
+}
 h2 {
     border-bottom: 1px solid #222;
     /* padding-bottom: 9px;
@@ -63,6 +63,10 @@ section p {
 
 footer {
     font-size: .9rem;
+    text-align: center;
+    background-color: #333;
+    margin-top: 20px;
+    color: white;
 }
 
 ul {

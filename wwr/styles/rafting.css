@@ -1,0 +1,120 @@
+:root {
+    --primary-color: #055a05;
+    --secondary-color: #f4a261;
+    --accent1-color: #264653;
+    --accent2-color: #e9c46a;
+    --heading-font: "Times New Roman", Times, serif;
+    --body-font: Arial, Helvetica, sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+header, main, footer {
+    width: 840px;
+    margin: 0 auto;
+}
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+nav, p, section, article {
+    margin: 16px;
+    padding: 8px;
+}
+.socialmedia a {
+    text-decoration: none;
+}
+.hero {
+    position: relative;
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: white;
+}
+article {
+    position: absolute;
+    bottom: 15px;
+    background-color: var(--secondary-color);
+}
+.hero article img {
+    float: right;
+    width: 200px;
+    height: auto;
+    border: 1px solid steelblue;
+    margin: 0 0 1rem 1rem;
+}
+/* nav {
+    background-color: rgb(241, 241, 237);
+    padding: 15px;
+}
+
+nav a {
+    display: block;
+    padding: 5px;
+}
+.section1 img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 30px gray;
+
+}
+.section1 {
+    position: relative;
+}
+.section1 h1 {
+    position: absolute;
+    left: 30px;
+    
+}
+.section11 img {
+    float: right;
+    width: 150px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+    margin: 0 0 1rem 1rem;
+}
+.sec {
+    position: relative;
+} */
+/* aside {
+    position: relative;
+} */
+/* .section1 p {
+    position: absolute;
+    top: 90px;
+} */
+/* main {
+    position: relative;
+} */
+/* main img {
+    float: right;
+    width: 150px;
+    height: var(--height);
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+    margin: 0 0 1rem 1rem;
+} */
+
+/* aside img {
+    float: right;
+} */
