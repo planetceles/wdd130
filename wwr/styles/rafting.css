@@ -48,7 +48,7 @@ nav, p, section {
     margin: 16px;
     padding: 8px;
 }
-.socialmedia a {
+.media a {
     text-decoration: none;
     
 }
@@ -143,7 +143,7 @@ footer p {
     justify-self: center;
     background-color: yellow; */
 }
-.socialmedia img {
+.media img {
     /* display: flex;
     justify-content: flex-end; */
     width: 35px;
