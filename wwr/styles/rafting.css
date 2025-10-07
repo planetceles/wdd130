@@ -87,7 +87,7 @@ article {
 .history {
     display: flex;
     flex-direction: row;
-    display: relative;
+    /* display: relative; */
     background-color: var(--accent2-color);
 }.history h2 {
     position: absolute;
@@ -118,7 +118,7 @@ article {
     /* display: flex;
     flex-direction: row; */
     /* flex-wrap: wrap; */
-    display: relative;
+    /* display: relative; */
     background-color: var(--accent2-color);
     padding-top: 70px;
 }
