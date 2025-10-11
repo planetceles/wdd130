@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+    <meta name="description" content="We weill learn an example of an HTML Form">
+    <meta name="author" content="Celestin Mande Mande">
+    <link rel="stylesheet" href="styles/poll-form.css">
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <h1>WDD 130 | HTML Form - User Poll</h1>
+        <div class="poll-form">
+            <form action="">
+                <fieldset>
+                    <legend>Contact information</legend>
+                    <div class="form-item column2">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="fullname" name="fullname" placeholder="Your Full Name" required><br>
+                    </div>
+
+                    <div class="form-item column2">
+                        <label for="email">Email</label>
+                        <input type="text" id="useremail" name="useremail" placeholder="Your Email" required>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Questions</legend>
+                    <div class="form-item column1">
+                        <label for="question">What is your favorite browser?</label>
+                        <select name="browsers" title="browsers" id="browsers">
+                            <option value="safari">Safari</option>
+                            <option value="chrome">Chrome</option>
+                            <option value="firefox">Firefox</option>
+                            <option value="edge">Edge</option>
+                            <option value="brave">Brave</option>
+                            <option value="other">Other</option>
+                        </select><br>
+                    </div>
+
+                    <div class="form-item column1">
+                        <label for="pet">Do you have a household pet?</label>
+                        <input type="checkbox" id="pet" name="pet"><br>
+                    </div>
+
+
+                    <label for="feedback">List the places you have lived:</label>
+                    <textarea id="feedback" name="feedback" rows="4"
+                        placeholder="Jamaica, Stillwater Florida, Amsterdam Netherlands"></textarea>
+
+                </fieldset>
+                <button type="submit">Submit Poll</button>
+            </form>
+        </div>
+
+    </main>
+    <footer>
+        <p>&copy;2025 &#10070; HTML Form - User Poll Activity &#10070; Celestin Mande</p>
+    </footer>
+</body>
+
+</html>

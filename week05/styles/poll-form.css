@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --font-family: 'Roboto Flex', sans-serif;
+    --font-optical-sizing: auto;
+    --font-weight: 400;
+}
+body {
+    font-family: Merriweather, Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    color: #333;
+    background: #fff;
+}
+header {
+    margin: 0;
+    width: 650px;
+}
+h1 {
+    margin: 1rem;
+    text-align: center;
+    color: navy;
+    font-size: 1.5rem;
+}
+form {
+    width: 700px;
+    /* margin: 0 auto; */
+    /* padding: 1rem; */
+    border: 1px solid rgba(19, 18, 18, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+    /* margin-left: 100px; */
+    justify-self: center;
+    
+}
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid reg(0 0 0 / 0.1);
+
+}
+legend {
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3rem;
+}
+label,
+input,
+button,
+select,
+textarea {
+    font-family: Roboto, Arial, Sans-serif;
+}
+/* label {
+    text-align: right;
+    padding-right: 1rem;
+} */
+input,
+select,
+textarea {
+    padding: 0.5rem;
+    /* font-size: 1.1rem; */
+}
+input[type="checkbox"] {
+    width: 23px;
+    height: 23px;
+    transform: scale(1.5);
+    margin-left: 1rem;
+
+}
+label[for="feedback"] {
+    /* align-self: center; */
+    padding-top: .5rem;
+    justify-self: center;
+}
+/* Need more attention */
+/* input[type="text"] {
+    width: 300px;    
+}  */
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: white;
+    border: none;
+    border-radius: .5rem;
+    padding: .5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 200px;
+    justify-self: center;
+    text-align: center;
+}
+button:hover {
+    background-color: darkgreen;
+}
+footer {
+    margin: 1rem auto 0;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #666;
+    width: 750px;
+    border-top: 1px solid #ccc;
+}
+.poll-form {
+    display: grid;
+}
+/* main {
+    width: 700px;
+} */
+y
+.form-item {
+    display: grid;
+    align-items: center;
+    /* justify-self: center; */
+
+}
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    justify-self: center;
+    margin: .5rem 0;
+}
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    justify-self: center;
+}
+/* Needs more attention */
+.column2 input {
+    /* width: 100%; */
+    /* height: auto; */
+    background-color: violet;
+}
