@@ -41,7 +41,6 @@ nav ul a {
     font-size: 20px;
 }
 h2 {
-    /* font-family: var(--heading-font); */
     color: var(--primary-color);
 }
 nav, p, section {
@@ -87,7 +86,6 @@ article {
 .history {
     display: flex;
     flex-direction: row;
-    /* display: relative; */
     background-color: var(--accent2-color);
 }.history h2 {
     position: absolute;
@@ -103,8 +101,6 @@ article {
     height: 200px;
     border: 1px solid steelblue;
     padding: 2px;
-    /* box-shadow: 0 0 30px gray; */
-    /* margin: 0 0 1rem 1rem; */
     margin-top: 55px;
 }
 .adventure img {
@@ -115,10 +111,6 @@ article {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 20px;
-    /* display: flex;
-    flex-direction: row; */
-    /* flex-wrap: wrap; */
-    /* display: relative; */
     background-color: var(--accent2-color);
     padding-top: 70px;
 }
@@ -132,31 +124,15 @@ footer {
     display: flex;
     justify-content: center;
     background-color: var(--accent1-color);
-    /* display: grid;
-    grid-template-columns: auto 1fr;
-    align-items: center;
-    background: var(--accent1-color); */
 }
 footer p {
     color: #eee;
-    /* color: #eee;
-    justify-self: center;
-    background-color: yellow; */
 }
 .media img {
-    /* display: flex;
-    justify-content: flex-end; */
     width: 35px;
     height: auto;
-    /* background-color: white; */
-    
-    /* margin: 10px; */
 }
 footer nav a{
-    /* justify-self: end; */
-    /* background-color: #e9c46a; */
-    /* padding: 5px; */
-    /* padding: 10px; */
     margin: 3px;
 }
 
@@ -194,7 +170,6 @@ iframe {
 .contact form {
     background-color: #a0bbba;
     border: 1px solid black;
-    /* width: 100%; */
 }
 fieldset {
     padding: 0.5rem;
@@ -268,7 +243,6 @@ button:hover {
     width: 250px;
     height: auto;
     border: 1px solid steelblue;
-    /* margin: 0 0 1rem 1rem; */
 }
 figcaption {
     text-align: center;
@@ -287,6 +261,5 @@ figcaption {
 h4 {
     text-align: center;
     color: var(--primary-color);
-    /* margin: .5rem; */
     font-size: 1.5rem;
 }
