@@ -255,9 +255,7 @@ figcaption {
     gap: 1rem;
     margin: 1rem;
 }
-.serve {
-    display: relative;
-}
+
 h4 {
     text-align: center;
     color: var(--primary-color);
