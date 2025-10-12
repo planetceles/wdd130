@@ -219,7 +219,7 @@ legend {
     display: grid;
     grid-template-columns: repeat(3, 0fr);
 }
-.lmessage label {
+.l-message label {
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
